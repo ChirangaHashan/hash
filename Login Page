@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixels & Predictions 2025: AI, Memes, and the Metaverse</title>
+  <meta name="description" content="Join Pixels & Predictions 2025 to explore AI, memes, and the metaverse. Discover how technology transforms digital culture with keynotes, panels, and sessions.">
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Pixels & Predictions 2025: The Fun Future of AI, Memes, and the Metaverse">
+  <meta property="og:description" content="Join us to explore the intersection of AI, digital culture, and the metaverse. Featuring keynotes, panels, and community-led sessions.">
+  <meta property="og:image" content="https://your-hosted-domain.com/assets/img/conference-og.jpg">
+  <meta property="og:url" content="https://your-hosted-domain.com">
+  <meta property="og:type" content="website">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+    }
+    .hero-section {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1920') center/cover;
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .form-section {
+      background-color: white;
+      padding: 50px 0;
+      margin-top: -30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .btn-custom {
+      background-color: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-family: 'Poppins', sans-serif;
+    }
+    .btn-custom:hover {
+      background-color: #0056b3;
+    }
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+  <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <h1>Pixels & Predictions 2025</h1>
+      <h2>The Fun Future of AI, Memes, and the Metaverse</h2>
+      <p class="lead mt-3">Join us to explore how artificial intelligence, digital culture, and the metaverse are reshaping communication, learning, and fun online.</p>
+      <a href="#learn-more" class="btn btn-custom mt-3">Learn More</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About the Conference</h2>
+      <p>Pixels & Predictions 2025 dives into the intersection of artificial intelligence, digital culture, and the metaverse. From deepfakes to virtual influencers, discover how new technologies are transforming how we connect and create online. The event features:</p>
+      <ul>
+        <li>Keynotes from industry leaders</li>
+        <li>Interactive panels with developers and creatives</li>
+        <li>Community-led sessions for digital futurists</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Learn More Form -->
+  <section id="learn-more" class="form-section">
+    <div class="container">
+      <h2 class="text-center mb-4">Stay Updated</h2>
+      <form id="learn-more-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <div class="mb-3">
+          <label for="learn-email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="learn-email" name="email" required>
+        </div>
+        <button type="submit" class="btn btn-custom">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Registration Form -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Register for the Conference</h2>
+      <form id="register-form" action="https://formspree.io/f/your-form-id" method="POST">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="first-name" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="first-name" name="first-name" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="last-name" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="last-name" name="last-name" required>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="register-email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="register-email" name="email" required>
+        </div>
+        <button type="submit" class="btn btn-custom">Register</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Pixels & Predictions. All rights reserved.</p>
+      <p>
+        <a href="https://facebook.com" target="_blank" class="text-white mx-2">Facebook</a> |
+        <a href="https://twitter.com" target="_blank" class="text-white mx-2">Twitter</a> |
+        <a href="https://linkedin.com" target="_blank" class="text-white mx-2">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  <!-- Form Validation Script -->
+  <script>
+    // Basic client-side email uniqueness check (for demo purposes)
+    const emails = new Set();
+
+    document.getElementById('learn-more-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const email = document.getElementById('learn-email').value;
+      if (emails.has(email)) {
+        alert('This email is already registered.');
+        return;
+      }
+      emails.add(email);
+      this.submit();
+    });
+
+    document.getElementById('register-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const email = document.getElementById('register-email').value;
+      if (emails.has(email)) {
+        alert('This email is already registered.');
+        return;
+      }
+      emails.add(email);
+      this.submit();
+    });
+  </script>
+</body>
+</html>
